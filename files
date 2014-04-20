@@ -34,3 +34,4 @@
 # Apache 
 /etc/httpd/httpd.conf
 /etc/httpd/extra/httpd-vhosts.conf
+/etc/httpd/php.ini

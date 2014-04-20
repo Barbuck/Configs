@@ -2,7 +2,7 @@
 $TTL	86400
 $ORIGIN maison.gruissan.
 @			1D IN SOA	buck.maison.gruissan. hostmaster.maison.gruissan. (
-	  2014200401		; serial 
+	  2014200402		; serial 
 	  3H		        ; refresh
 	  15M		        ; retry
 	  1W		        ; expiry
@@ -13,3 +13,4 @@ buck            IN A 192.168.3.1
 eeepc           IN A 192.168.3.10
 slackware.buck  IN A 192.168.3.1
 freebsd.buck    IN A 192.168.3.1
+wordpress.buck  IN A 192.168.3.1
