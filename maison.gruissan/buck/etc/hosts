@@ -12,12 +12,16 @@
 #
 
 # For loopbacking.
-127.0.0.1		localhost.localdomain localhost
-192.168.3.1	buck.maison.gruissan buck
-192.168.3.1	slackware.buck.maison.gruissan slackware.buck
-192.168.3.1	freebsd.buck.maison.gruissan freebsd.buck
-192.168.3.1 phpinfo.buck.maison.gruissan phpinfo.buck
-192.168.3.1 wordpress.buck.maison.gruissan wordpress.buck
-192.168.3.1 gbillustartion.buck.maison.gruissan gbillustration.buck
+127.0.0.1		    localhost.localdomain localhost
+
+#192.168.1.254  buck.maison.gruissan buck
+192.168.3.1	    buck.maison.gruissan buck
+192.168.3.1	    slackware.buck.maison.gruissan slackware.buck
+192.168.3.1	    freebsd.buck.maison.gruissan freebsd.buck
+192.168.3.1     phpinfo.buck.maison.gruissan phpinfo.buck
+
+#192.168.3.1    wordpress.buck.maison.gruissan wordpress.buck
+192.168.3.1     gbillustration.buck.maison.gruissan gbillustration.buck
+
 # End of hosts.
 
