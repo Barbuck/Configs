@@ -1,0 +1,17 @@
+# /etc/hosts.allow
+# hosts.allow	This file describes the names of the hosts which are
+#		allowed to use the local INET services, as decided by
+#		the '/usr/sbin/tcpd' server.
+#
+# Version:	@(#)/etc/hosts.allow	1.00	05/28/93
+#
+# Author:	Fred N. van Kempen, <waltje@uwalt.nl.mugnet.org
+#
+#
+ALL     : localhost buck buck.maison.gruissan              : ALLOW 
+sshd    : ALL                                              : ALLOW 
+portmap : 192.168.3.0/255.255.255.0 *.maison.gruissan      : ALLOW 
+mountd  : 192.168.3.0/255.255.255.0 *.maison.gruissan      : ALLOW 
+vsftpd  : 127.0.0.1                                        : ALLOW
+vsftpd  : 192.168.3.0/255.255.255.0 *.maison.gruissan      : ALLOW
+# End of hosts.allow.
